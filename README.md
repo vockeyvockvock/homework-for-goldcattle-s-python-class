@@ -9,7 +9,7 @@ dictionary = {}
 
 
 for i in string:
-    if (i.rstrip("\n") in dictionary):
+    if (i.rstrip("\n") in dictionary:
         dictionary[i.rstrip("\n")] += 1
     else:
         dictionary[i.rstrip("\n")] = 1   
